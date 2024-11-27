@@ -29,18 +29,11 @@ header {
     color: var(--neutral-color);
     text-transform: uppercase;
     margin: 2%;
-    padding: 1%
+    padding: 1%;
 }
 
 .nav-options a:hover{
     border-bottom: solid 2px var(--secondary-color-600)
 }
 
-@media(max-width: 640px){
-    header{
-        flex-direction: column;
-    }
-    .nav-options{
-        flex-direction: column;
-    }
-}
+
