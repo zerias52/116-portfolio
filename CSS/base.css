@@ -24,7 +24,7 @@
 
 html{
     background-color: var(--background-color);
-    font-size: 18px;
+    font-size: 16px;
 }
 
 .center-row{
@@ -53,5 +53,13 @@ h2{
 }
 p{
     color: var(--neutral-color);
-    font-size: 1.3rem;
+    font-size: 1.1rem;
+}
+.text-label{
+    color: var(--background-color);
+    background-color: var(--primary-color-100);
+    text-transform: uppercase;
+    font-weight: bolder;
+    padding: .8rem 1.5rem;
+    font-size: 1.1rem;
 }
